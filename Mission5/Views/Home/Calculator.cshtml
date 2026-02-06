@@ -3,20 +3,59 @@
 }
 
 <div class="text-start">
-    <h1 class="display-4">how to catch hogs</h1>
-    
-    <div class="container form-control d-flex flex-column align-items-start gap-2">
-        <label class="form-label" for="hours">How many hours you want to fish with me?</label>
-        <input class="form-text" id="hours" type="number" />
-        <button type="button" class="btn btn-dark" id="calculate">calculate cost</button>
+
+  <div class="container mt-4">
+    <div class="row g-4 align-items-center">
+      
+      <!-- Left: Card -->
+      <div class="col-12 col-md-auto">
+        <div class="card" style="width: 18rem;">
+          <img src="~/img/fishing3.jpg" class="card-img-top" alt="person holding a large bluegill">
+          <div class="card-body">
+            <label class="card-title" for="hours">How many hours you want to fish with me?</label>
+            <input class="form-control mt-2" id="hours" type="number" />
+          </div>
+          <div class="card-body">
+            <button type="button" class="btn btn-dark w-100" id="calculate">calculate cost</button>
+          </div>
+          <div class="card-body">
+            <label class="card-title">Cost of fishing trip</label>
+            <p class="card-text mt-1 mb-0" id="cost">$0.00</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Text -->
+      <div class="col-12 col-md">
+        <h1 class="display-4">how to catch hogs</h1>
+        <p>
+          A day on the river or lake with me is simple: we show up, get set up fast, and start catching fish.
+          You don’t need to bring anything except whatever snacks or drinks you want. I’ve got the rods, reels,
+          tackle, and the game plan. I’ll ask what you’re hoping to catch (or what you want to learn), then we’ll
+          pick the best spot based on the conditions that day.
+        </p>
+
+        <p>
+          Once we’re on the water, I’ll walk you through the basics—casting, retrieving, how to set the hook, and
+          what to look for so you’re not just “fishing,” you’re actually targeting fish. If you’re new, I’ll keep it
+          easy and focus on building confidence. If you’ve fished before, we’ll level it up: reading structure,
+          dialing in depth, and switching baits or presentations until we find what they want.
+        </p>
+
+        <p>
+          I handle the technical stuff: tying knots, changing lures, adjusting your drag, and picking the right
+          technique for the moment. I’ll also teach you why we’re doing what we’re doing—so by the end you’ll
+          know how to repeat it on your own. And if we hook into a good one, I’ll help you land it, take a quick
+          photo, and get it back in the water safely.
+        </p>
+
+        <p class="mb-0">
+          The goal is for you to have a fun, relaxed day and leave with real skills—not just stories. Whether we’re
+          chasing big bites or steady action, we’ll keep moving, keep learning, and make the most of the time on
+          the water.
+        </p>
+      </div>
+
     </div>
-    
-    <label class="form-label">Cost of fishing trip</label>
-    <p class="card-text" id="cost">$0.00</p>
-    
-    <div class="container">
-        <img alt="person holding a large bluegill" src="img/fishing3.jpg"/>
-        <img alt="person holding a large bass" src="img/fishing4.jpg"/>
-    </div>
-    
+  </div>
 </div>
